@@ -5,6 +5,8 @@ df = pd.read_excel('posts1.xlsx')
 
 st.set_page_config(page_title="Análise do Instagram de João Campos", page_icon="📐", layout="wide")
 
+def main():
+    
     st.title('Análise do Instagram de João Campos')
 
 df2 = df.sort_values(by='Post interaction rate', ascending=False).head(10)
