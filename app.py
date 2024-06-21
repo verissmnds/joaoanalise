@@ -7,7 +7,7 @@ st.set_page_config(page_title="Análise do Instagram de João Campos", page_icon
 
 st.title('Análise do Instagram de João Campos')
 
-df2 = df.sort_values(by='Post interaction rate', ascending=False).head(10)
+df2 = df2.sort_values(by='Post interaction rate', ascending=False).head(10)
 
 st.header("Nuvem de palavras das legendas escritas pelo pré-candidato em suas publicações:")
 
