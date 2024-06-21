@@ -1,6 +1,8 @@
 import pandas as pd
 import streamlit as st
 
+df = pd.read_excel('posts1.xlsx')
+
 st.set_page_config(page_title="Análise do Instagram de João Campos", page_icon="📐", layout="wide")
 
 st.title('Análise do Instagram de João Campos')
