@@ -17,6 +17,6 @@ url_imagem = 'fotojoao.png'
 st.image(url_imagem)
 
 st.header("As 10 publicações com maior taxa de engajamento:")
-st.markdown("Na análise eu foquei apenas nas três primeiras publicações.
-             1. https://www.instagram.com/reel/C3Gg_eORsFk/")
+st.markdown("Na análise eu foquei apenas nas três primeiras publicações.")
+st.markdown("1. https://www.instagram.com/reel/C3Gg_eORsFk/")
 st.dataframe(df2)
