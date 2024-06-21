@@ -3,11 +3,13 @@ import streamlit as st
 
 df = pd.read_excel('posts1.xlsx')
 
+joao_df = df[df['Profile'] == 'João Campos']
+
 st.set_page_config(page_title="Análise do Instagram de João Campos", page_icon="📐", layout="wide")
 
 st.title('Análise do Instagram de João Campos')
 
-df2 = df2.sort_values(by='Post interaction rate', ascending=False).head(10)
+df2 = joao_df.sort_values(by='Post interaction rate', ascending=False).head(10)
 
 st.header("Nuvem de palavras das legendas escritas pelo pré-candidato em suas publicações:")
 
