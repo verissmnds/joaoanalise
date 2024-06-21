@@ -14,5 +14,5 @@ st.dataframe(df2)
 
 st.header("Nuvem de palavras das legendas escritas pelo pré-candidato em suas publicações:")
 
-url_imagem = 'https://github.com/verissmnds/joaoanalise/blob/969358cec2688aadac5a5f13f395702693c9b3f9/fotojoao.png'
+url_imagem = 'fotojoao.png'
 st.image(url_imagem)
